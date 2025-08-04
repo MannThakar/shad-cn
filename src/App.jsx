@@ -1,7 +1,11 @@
-import React from "react";
+import LayoutPage from "./pages";
 
 const App = () => {
-  return <div>App</div>;
+  return (
+    <main>
+      <LayoutPage />
+    </main>
+  );
 };
 
 export default App;
