@@ -1,2 +1,30 @@
 @import "tailwindcss";
 @import "tw-animate-css";
+
+@theme {
+  --container-width: 80rem;
+  --container-padding: 1rem;
+
+  --color-primary: oklch(63.36% 0.16883 149.42);
+  --color-primary-50: oklch(86.755% 0.12552 154.93);
+  --color-primary-100: oklch(84.979% 0.14369 153.97);
+  --color-primary-200: oklch(81.817% 0.17451 152.36);
+  --color-primary-300: oklch(79.324% 0.20203 150.1);
+  --color-primary-400: oklch(73.037% 0.19666 149.18);
+  --color-primary-500: oklch(63.36% 0.16883 149.42);
+  --color-primary-600: oklch(49.445% 0.12855 149.95);
+  --color-primary-700: oklch(34.454% 0.08556 150.54);
+  --color-primary-800: oklch(17.173% 0.03286 157.56);
+  --color-primary-900: oklch(0% 0 none);
+  --color-primary-950: oklch(0% 0 none);
+  --color-bg: #8dd2a6;
+}
+
+.container {
+  width: 100%;
+  max-width: var(--container-width);
+  padding-left: var(--container-padding);
+  padding-right: var(--container-padding);
+  margin-left: auto;
+  margin-right: auto;
+}
